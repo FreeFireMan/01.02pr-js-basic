@@ -122,7 +122,7 @@ console.log(b, typeof(b));
 console.log(c, typeof(c)); */
 
 // #11
-console.log(5 < 6);
+/* console.log(5 < 6);
 console.log(5 === 6);
 console.log(5 >= 6);
 console.log(5 > 6);
@@ -132,5 +132,24 @@ console.log(10 > 10);
 console.log(10 !== 10);
 console.log(10 < 10);
 console.log(123 === '123');
-console.log(123 == '123');
+console.log(123 == '123'); */
+
+// #12
+console.log(132 > 100 && 45 < 12 );
+console.log(34 > 33 && 23 < 90 );
+console.log(99 > 100 && 45 > 12 );
+console.log(132 > 100 || 45 < 12 );
+console.log(111 > 11 || 45 < 111 );
+console.log((111 > 11 || 45 < 111) && (132 > 100 || 45 < 12) );
+console.log((111 > 11 || 45 < 56) || (132 > 100 || 45 < 12) );
+console.log((132 > 100 && 45 < 12 ) && (132 > 100 || 45 < 12 ) );
+console.log((111 > 11 || 45 < 111) || (99 > 100 && 45 > 12 ));
+console.log(!!'-1');
+console.log(!!-1);
+console.log(!!'0');
+console.log(!!'null');
+console.log(!!'undefined');
+console.log(!!(3/'owu')); // приводит в 0
+console.log((111 > 11 || 45 < 111) ||  !!'0');
+console.log((!!111 == !!11 || 45 < 111) && (99 > 100 && 45 > 12 ));
 
