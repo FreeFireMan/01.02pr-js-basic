@@ -1,5 +1,5 @@
 // #1
-/* let hello = 'Hello';
+let hello = 'Hello';
 let owu = 'owu';
 let com = 'com';
 let ua = 'ua';
@@ -31,7 +31,7 @@ document.write(a + ' ' + b + ' ' + c + ' ' + d + ' ' + e + ' ' + f + ' ' + g);
 document.write('<hr>');
 document.write(boolTrue + ' ' + boolFalse);
 document.write('<hr>');
-document.write('<hr>'); */
+document.write('<hr>');
 
 // #2
 /* hello = 'Goodbye';
@@ -135,7 +135,7 @@ console.log(123 === '123');
 console.log(123 == '123'); */
 
 // #12
-console.log(132 > 100 && 45 < 12 );
+/* console.log(132 > 100 && 45 < 12 );
 console.log(34 > 33 && 23 < 90 );
 console.log(99 > 100 && 45 > 12 );
 console.log(132 > 100 || 45 < 12 );
@@ -151,5 +151,5 @@ console.log(!!'null');
 console.log(!!'undefined');
 console.log(!!(3/'owu')); // приводит в 0
 console.log((111 > 11 || 45 < 111) ||  !!'0');
-console.log((!!111 == !!11 || 45 < 111) && (99 > 100 && 45 > 12 ));
+console.log((!!111 == !!11 || 45 < 111) && (99 > 100 && 45 > 12 )); */
 
